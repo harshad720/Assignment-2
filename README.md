@@ -9,21 +9,21 @@ This device uses the following components:
 * Neopixel Matrix
 
 ## Circuit Functions:
-*Using the input coming from the temprature sensor and publishing it to the cloud. 
-*Using the data from the cloud and visualizing it using the OLED screen, which shows the last published temprature, 
-and the Neopixel Matrix, which graphs the temprature values.
+* The photon uses the publish function to publish the data it receives from the Temprature sensor.
+* The subscribed data is then sent to the OLED screen and the Neopixel Matrix.
+* A function converts the incoming data into a matrix which is then printed on the Neopixel Matrix in the form of a dynamic Graph.
 
 ## Input Visualization:
 The website uses D3.js to use the data from the photon to plot a Bar Graph of the values.
 
 ## Libraries used:
-*OneWire/OneWire.h
-*neopixel/neopixel.h
-*SparkFunMicroOLED/SparkFunMicroOLED.h
+* OneWire/OneWire.h
+* neopixel/neopixel.h
+* SparkFunMicroOLED/SparkFunMicroOLED.h
 
 
 ## API reference:
-*D3.js:https://d3js.org/
+* D3.js:https://d3js.org/
 
 Images:
 
